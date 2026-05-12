@@ -21,14 +21,14 @@ const projects = [
     category: "Site Management",
     icon: <FaBuilding />
   },
-  { 
-    id: "interior-modeling", 
-    title: "Modern Interior Layout", 
-    desc: "Detailed interior 3D modeling with realistic lighting and furniture placement using SketchUp.", 
-    img: "/project3.jpeg", 
-    category: "3D Modeling",
-    icon: <FaCube />
-  }
+  // { 
+  //   id: "interior-modeling", 
+  //   title: "Modern Interior Layout", 
+  //   desc: "Detailed interior 3D modeling with realistic lighting and furniture placement using SketchUp.", 
+  //   img: "/project3.jpeg", 
+  //   category: "3D Modeling",
+  //   icon: <FaCube />
+  // }
 ];
 
 const Projects = () => {

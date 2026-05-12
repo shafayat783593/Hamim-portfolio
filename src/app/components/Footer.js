@@ -13,10 +13,8 @@ const Footer = () => {
     <footer className="block w-full bg-white dark:bg-slate-950 pt-20 pb-10 px-6 border-t border-slate-100 dark:border-slate-900 transition-colors">
       
       <div className="max-w-7xl mx-auto">
-        {/* flex md:flex-row নিশ্চিত করবে যে ডেস্কটপে এটি অবশ্যই পাশাপাশি থাকবে */}
         <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-between gap-12 mb-16">
           
-          {/* Column 1: Branding - Fixed Width for stability */}
           <div className="w-full md:w-[300px] flex-shrink-0">
             <Link href="/" className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter">
               AL <span className="text-blue-600">HAMIM.</span>
@@ -27,8 +25,7 @@ const Footer = () => {
             <div className="flex gap-4 mt-8">
               {[
                 { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/md-abdul-al-hamim-28415738a/" },
-                { icon: <FaGithub />, href: "#" },
-                { icon: <FaFacebook />, href: "#" }
+                { icon: <FaFacebook />, href: "https://www.facebook.com/profile.php?id=61589471390904" }
               ].map((social, i) => (
                 <motion.a
                   key={i}

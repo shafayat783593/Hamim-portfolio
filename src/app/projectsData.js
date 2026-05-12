@@ -6,22 +6,22 @@ export const projectsData = {
     category: "AutoCAD & 3D Visualization",
     location: "Dhaka, Bangladesh",
     date: "Jan 2026",
-    description: "A comprehensive architectural plan and 3D exterior design for a 5-story residential building. The project focused on space optimization and advanced ventilation systems.",
-    tools: ["AutoCAD", "SketchUp", "V-Ray"],
+    description: "A comprehensive architectural plan and 3D exterior design ",
+    tools: ["AutoCAD", "Revit","Enscape & AI"],
     whyThisProject: [
-      { 
-        title: "Structural Safety", 
-        desc: "Ensured earthquake-resistant design and structural integrity.", 
-        icon: <FaShieldAlt className="text-red-500" /> 
-      },
+      // { 
+      //   title: "Structural Safety", 
+      //   desc: "Ensured earthquake-resistant design and structural integrity.", 
+      //   icon: <FaShieldAlt className="text-red-500" /> 
+      // },
       { 
         title: "Smart Planning", 
         desc: "Maximum room utilization within limited space constraints.", 
         icon: <FaLightbulb className="text-yellow-500" /> 
       }
     ],
-    features: ["2D Floor Plan", "3D Exterior View", "Electrical Layout"],
-    gallery: ["/project1.jpeg", "/p1-2.jpg"]
+    features: ["2D Floor Plan", "3D Exterior View", ],
+    gallery: ["/project1.jpeg", "/project2.jpeg","/project3.jpeg"]
   },
   "site-management": {
     title: "Structural Supervision",
