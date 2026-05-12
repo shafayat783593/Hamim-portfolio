@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Tailwind v4 এ ডার্ক মোড ক্লাসের জন্য এটি প্রয়োজন */
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
@@ -12,6 +11,7 @@
   --background: #0a0a0a;
   --foreground: #ededed;
 }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -19,14 +19,16 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease; /* থিম পরিবর্তনের সময় স্মুথ ট্রানজিশন */
-}
-
-/* স্মুথ স্ক্রলিং এর জন্য */
-html {
-  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
